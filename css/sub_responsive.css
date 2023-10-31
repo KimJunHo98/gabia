@@ -1,0 +1,241 @@
+/* 미디어쿼리 */
+@media all and (max-width: 1200px) {
+    .container { width: 100%; }
+    .row { padding: 0 15px; }
+
+    .header .header_btm .quick li.gabia { display: none; }
+    /* .server .sv_img li { height: 290px; } */
+    .server .sv_img li p br { display: block; }
+}
+
+@media all and (max-width: 1130px) {
+    .request .rank_box .plan { height: 540px; }
+    .request .rank_box .plan > div .pl_btn { float: left; }
+}
+
+@media all and (max-width: 1024px) {
+    .sitemap span { width: 40px; height: 40px; line-height: 20px; text-align: center; padding-top: 10px; opacity: 0.6; }
+    .sitemap span a.goto_top em { display: none; }
+    .sitemap span a.goto_top i { font-size: 20px; }
+
+    .header_top, .header .header_btm .gnb, .header .header_btm ul.quick { display: none; }
+    .header { height: 70px; }
+    .header .header_btm ul.login { display: inline-block; }
+    .header .header_btm h1 { float: none; display: inline-block; padding-left: 40px; }
+    .header .header_btm h1 a img { height: 28px; margin-top: 5px; }
+
+    .mGnb { display: block; }
+
+    .request .rank > div ul li a { font-size: 16px; }
+    .request .rank select { width: 120px; height: 40px; font-size: 14px; }
+    .request .rank_box .plan { width: 49%; height: 380px; margin: 0 2% 2% 0; }
+    .request .rank_box .sec { margin-right: 0; }
+    .request .rank_box .plan p.logo_hp img, .request .rank_box .plan p.logo_leno img { width: auto; height: 25px; }
+    .request .rank_box .plan p.prod_name { font-size: 18px; letter-spacing: -1px; }
+    .request .rank_box .plan > div span.cost { font-size: 28px; }
+    .request .rank_box .plan > div span.won { font-size: 14px; font-weight: 300; }
+    .request .rank_box .plan > div .pl_btn { width: 120px; height: 40px; font-size: 14px; float: right; }
+    .request .rank_box .plan ul li { padding: 5px 0; font-size: 14px; }
+    .request .rank_desc p a { width: 100px; height: 40px; padding: 0 30px; line-height: 40px; font-size: 14px; font-weight: 400; }
+    .request .rank_desc ul li, .request .rank_desc ul li a  { font-size: 12px; }
+    .request .rank_desc ul li:before { margin: 0 5px 3px 0; }
+    
+    #addition { padding: 50px 0; }
+    .addition .addition_item1 { width: 100%; float: none; }
+    .addition .addition_item1 h3 { font-size: 30px; font-weight: 300; width: 100%; text-align: center; margin-bottom: 30px; }
+    .addition h3 br { display: none; }
+    .addition .addition_item2, .addition .addition_item3 { width: 49%; margin-right: 2%; }
+    .addition .addition_item3 { margin-right: 0; }
+    .addition > div ul li { padding: 20px; }
+    .addition > div ul li a { font-size: 14px; }
+    .addition > div ul li a p.title { font-size: 18px; }
+
+    #server { padding: 50px 0; }
+    .server .sv_title ul li { font-size: 30px; letter-spacing: -1px; }
+    .server .sv_desc ul li { letter-spacing: -1px; }
+    .server .sv_img li p { font-size: 16px; margin-top: 10px; }
+    .server .sv_btn { padding: 15px 50px; font-size: 16px; }
+
+    #help { padding: 50px 0; }
+    .help h3 { font-size: 30px; }
+    .help .help_btn li .hp_btn { font-size: 14px; padding: 10px 20px; }
+    .help .help_box > div h4 { width: 110px; height: 110px; padding-top: 35px; font-size: 14px; }
+
+    #about_server { padding: 50px 0; }
+    .about_server h3 { font-size: 30px; margin-bottom: 10px; }
+    .about_server .about_desc p { font-size: 16px; padding-bottom: 5px; letter-spacing: -1px; }
+    .about_server .about_img { margin-top: 40px; }
+
+    #technical { padding: 50px 0; }
+    .technical h3 { font-size: 30px; font-weight: 300; margin-bottom: 20px; }
+    .technical .technical_item ul li { width: 40%; padding: 35px 2% 0 8%; margin-left: 0; }
+    .technical .technical_item ul li.item1 { background-size: 55px; }
+    .technical .technical_item ul li.item2 { background-size: 55px; }
+    .technical .technical_item ul li.item3 { background-size: 55px; }
+    .technical .technical_item ul li h4 { font-size: 16px; }
+
+    #hosting { padding: 50px 0; }
+    .hosting h3 { font-size: 30px; font-weight: 300; margin-bottom: 20px; }
+    .hosting .hosting_item ul li { width: 40%; padding: 35px 2% 0 8%; margin-left: 0; }
+    .hosting .hosting_item ul li.item1 { background-size: 55px; }
+    .hosting .hosting_item ul li.item2 { background-size: 55px; }
+    .hosting .hosting_item ul li.item3 { background-size: 55px; }
+    .hosting .hosting_item ul li.item4 { background-size: 55px; }
+    .hosting .hosting_item ul li.item5 { background-size: 55px; }
+    .hosting .hosting_item ul li.item6 { background-size: 55px; }
+    .hosting .hosting_item ul li  h4 { font-size: 16px; }
+
+    #addition2 { padding: 50px 0; }
+    .addition2 > div { width: 49%; margin: 0 2% 2% 0; }
+    .addition2 .addition2_item1 h3 { font-size: 30px; font-weight: 400; }
+    .addition2 .addition2_item3 { margin-right: 2%; }
+    .addition2 .addition2_item4 { margin-bottom: 2%; }
+    .addition2 .addition2_item2, .addition2 .addition2_item4, .addition2 .addition2_item6 { margin-right: 0; }
+    .addition2 > div ul li { padding: 20px; height: auto; }
+    .addition2 > div ul li p br { display: none; }
+    .addition2 > div ul li a { font-size: 14px; }
+    .addition2 > div ul li a p.title { font-size: 18px; }
+
+    #question { padding: 50px 0; }
+    .question .question_hd h3 { font-size: 24px; }
+    .question .question_hd .toggle_btn, .question ul li a { font-size: 14px; }
+    .question ul li { padding: 15px 10px 5px 10px; }
+
+    #site { padding: 30px 0; }
+    .site .site_contact ul, .site .site_resource ul { padding: 15px 20px; }
+    .site .site_contact ul li { font-size: 14px; }
+    .site .site_contact ul li span { margin-right: 15px; }
+    .site .site_contact ul li br { display: block; }
+    .site .site_contact ul li em { padding-left: 145px; }
+    .site .site_resource ul li { font-size: 14px; }
+    .site .site_resource ul li a { padding-top: 25px; }
+    .site .site_resource ul li a::after { height: 14px; top: 28px; right: -18px; }
+    .site .site_total > div h4 a { font-size: 14px; }
+    .site .site_total > div h4 a br { display: block; }
+    .site .site_total > div ul.top li { padding: 0 0 20px 5px; }
+    .site .site_total > div ul li { padding: 0 0 5px 0; }
+    .site .site_total > div ul li a { font-size: 12px; }
+
+    #footer { padding: 20px 0; }
+    .footer .footer_menu ul.policy li:after { height: 14px; }
+    .footer .footer_menu ul.policy li a { font-size: 14px; }
+    .footer .footer_menu .address { padding: 15px 0; }
+    .footer .footer_menu .address ul li { padding-bottom: 5px; font-size: 12px; }
+    .footer .footer_menu .address p { font-size: 12px; padding-top: 5px; }
+    .footer .cloud_banner { position: absolute; top: 30px; right: 0; }
+    .footer .cloud_banner .desc { float: none; }
+    .footer .cloud_banner .desc ul { text-align: right; }
+    .footer .cloud_banner .desc ul li:last-child { letter-spacing: 3.5px; }
+    .footer .cloud_banner .icon ul li a img { width: 45px; height: 45px; }
+}
+
+@media all and (max-width: 768px) {
+    .header { text-align: center; }
+    .header h1 { padding-left: 0; margin-right: 0; display: inline-block; }
+    .header h1 img { height: 24px; margin-top: 0; }
+    .header .header_btm ul.login { display: none; }
+
+    .dots { display: none; }
+
+    #sub_banner { padding: 20px; }
+    .sub_banner { text-align: center; }
+    .sub_banner h2 { font-size: 20px; display: inline-block; }
+    .sub_banner p { display: none; }
+
+    .request .rank > div ul { padding: 40px 0 30px; }
+    .request .rank select { 
+        position: static; display: block; width: 100%; height: 35px; 
+        padding-left: 10px; font-size: 14px; margin-bottom: 15px;
+    }
+    .request .rank > div ul li a { font-size: 14px; }
+    .request .rank_box .plan { width: 100%; height: auto; margin-right: 0; padding: 30px 20px; }
+    .request .rank_box .plan > div span.badge { width: 50px; height: 25px; font-size: 12px; line-height: 25px; }
+    .request .rank_box .plan > div span.cost { font-size: 24px; }
+    .request .rank_box .plan > div .pl_btn { width: 90px; height: 35px; }
+    .request .rank_desc { margin: 20px 0 40px; }
+    .request .rank_desc p { margin-bottom: 20px; }
+    .request .rank_desc p a { width: 100px; height: 35px; padding: 0 10px; line-height: 40px; font-size: 14px; font-weight: 400; }
+
+    #addition { padding: 40px 0; }
+    .addition .addition_item1 h3 { font-size: 20px; font-weight: 400; width: 100%; text-align: center; margin-bottom: 30px; }
+    .addition h3 br { display: none; }
+    .addition .addition_item2 { margin-bottom: 2%; }
+    .addition .addition_item2, .addition .addition_item3 { float: none; width: 100%; margin-right: 0; }
+    .addition > div ul li { padding: 20px; }
+    .addition > div ul li a { font-size: 14px; }
+    .addition > div ul li a p br { display: none; }
+    .addition > div ul li a p.title { font-size: 18px; }
+    
+    #server { padding: 40px 0; }
+    .server .sv_title ul li { font-size: 20px; letter-spacing: -1px; }
+    .server .sv_desc ul li { font-size: 14px; letter-spacing: -1px; padding: 5px 0 30px; }
+    .server .sv_img { flex-direction: column; }
+    .server .sv_img li { margin-bottom: 10px; padding: 30px 20px; margin-right: 0; }
+    .server .sv_img li p { font-size: 16px; margin-top: 10px; height: auto; }
+    .server .sv_img li p br { display: none; }
+    .server .sv_btn { width: 100%; padding: 15px 0; font-size: 14px; }
+
+    #help { padding: 40px 0; }
+    .help h3 { font-size: 20px; margin-bottom: 30px; }
+    .help .help_btn { display: inline-block; }
+    .help .help_btn li { display: block; margin: 0 0 10px; }
+    .help .help_btn li .hp_btn { font-size: 14px; padding: 5px 30px; }
+    .help .help_box > div h4 { float: none; width: 130px; height: auto; padding: 10px 20px; font-size: 14px; border-radius: 50px; }
+    .help .help_box > div h4 br { display: none; }
+    .help .help_box { width: 100%; margin: 30px auto 0; }
+    .help .help_box .hp_left { width: auto; float: none; padding-right: 0; margin-right: 30px; }
+    .help .help_box .hp_right { width: auto; float: none; }
+    .help .help_box .hp_right ul li:last-child { margin-bottom: 21px; }
+    .help .help_box > div ul { float: none; padding-left: 10px; }
+    .help .help_box > div ul li { font-size: 16px; font-weight: 300; text-align-last: left; padding-bottom: 15px; }
+    .help .help_box > div ul li:last-child { padding-bottom: 0; }
+    .help .help_box > div ul li em { display: block; font-size: 14px; font-weight: 300; margin-right: 0; margin: 0 auto; }
+
+    #about_server{ padding: 40px 0; }
+    .about_server h3 { font-size: 20px; }
+    .about_server .about_desc p { font-size: 14px; }
+    .about_server .about_img { margin-top: 30px; }
+
+    #technical { padding: 40px 0; }
+    .technical h3 { font-size: 20px; margin-bottom: 0; }
+    .technical .technical_item ul li { width: 100%; padding: 35px 0 0 50px; }
+    .technical .technical_item ul li.item1 { background-size: 35px; }
+    .technical .technical_item ul li.item2 { background-size: 35px; }
+    .technical .technical_item ul li.item3 { background-size: 35px; }
+
+    #hosting { padding: 40px 0; }
+    .hosting h3 { font-size: 20px; margin-bottom: 0; }
+    .hosting .hosting_item ul li { width: 100%; padding: 35px 0 0 50px;  }
+    .hosting .hosting_item ul li.item1 { background-size: 35px; }
+    .hosting .hosting_item ul li.item2 { background-size: 35px; }
+    .hosting .hosting_item ul li.item3 { background-size: 35px; }
+    .hosting .hosting_item ul li.item4 { background-size: 35px; }
+    .hosting .hosting_item ul li.item5 { background-size: 35px; }
+    .hosting .hosting_item ul li.item6 { background-size: 35px; }
+
+    #addition2 { padding: 40px 0; }
+    .addition2 > div { width: 100%; margin: 0 0 10px 0; }
+    .addition2 .addition2_item1 h3 { font-size: 20px; font-weight: 400; text-align: center; margin-bottom: 10px; }
+    .addition2 .addition2_item1 h3 br { display: none; }
+    .addition2 .addition2_item3 { margin-right: 0; }
+    .addition2 .addition2_item4, .addition2 .addition2_item5 { margin-bottom: 10px; }
+    .addition2 > div ul li { padding: 20px; height: auto; }
+    .addition2 > div ul li p br { display: none; }
+    .addition2 > div ul li a { font-size: 14px; height: auto; }
+    .addition2 > div ul li a p.title { font-size: 16px; }
+
+    #site { display: none; }
+
+    #question { padding: 40px 0; }
+    .question .question_hd h3 { font-size: 20px; }
+
+    #footer { padding: 20px 0; border-top: 1px solid #535861;}
+    .footer .footer_menu .address ul li br { display: block; }
+    .footer .cloud_banner { position: static; }
+    .footer .cloud_banner .desc { float: right; margin-top: 0; }
+    .footer .cloud_banner .desc ul li { font-size: 12px; }
+    .footer .cloud_banner .desc ul li:last-child { letter-spacing: 2.5px; }
+    .footer .cloud_banner .icon { float: left; }
+    .footer .cloud_banner .icon ul li { padding: 0 10px 0 0;  }
+    .footer .cloud_banner .icon ul li a img { width: 40px; height: 40px; }
+}

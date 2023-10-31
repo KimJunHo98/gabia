@@ -1,0 +1,15 @@
+<svg id="icon_normal_copy" data-name="icon_normal copy" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3dbdff;
+      }
+
+      .cls-2 {
+        fill: #1f2a39;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-1" cx="9" cy="9" r="9"/>
+  <path id="Rectangle_1007_copy" data-name="Rectangle 1007 copy" class="cls-2" d="M855.28,967v-6h2v6Zm0-8v-2h2v2Z" transform="translate(-847.28 -953)"/>
+</svg>
